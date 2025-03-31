@@ -1,3 +1,258 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #6B8FE7;
+    padding: 0;
+    margin: 0;
+
+}
+main{
+    background-color: #6B8FE7;
+    margin: auto;
+}
+h1, h2{
+   font-family: 'Kavoon';
+   font-weight: bolder;
+}
 h1{
-    font-size: 25;
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+}
+h1 + p{
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+  
+}
+.pass{
+    background-color: #484FB7;
+    max-width: 475px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.menu{
+    background-color: #E9BB57;
+    margin: 0 auto;
+    max-width: 475px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.menu h3{
+    color: #1E1E1E;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.menu .button{
+    display: block;
+    width: 280px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+h2{
+    font-family: 'Kavoon';
+    font-size: 2em;
+    color: #ffffff;
+ }
+.colorbeige{
+    font-size: 1.5em;
+    color: #E9BB57;
+ }
+
+.service{
+    background-color: #484FB7;
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.service .one-on-one1{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+    
+}
+.service .one-on-one2{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+.service .one-on-one3{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+.service .group-coaching1{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+.service .group-coaching2{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+.service .work-seminar{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+.service .online-courses{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px auto;
+    width: 85%;
+}
+
+h4{
+    color: #484FB7;
+    font-size: 1.15em;
+}
+.whychooseus{
+    background-color: #D9526F;
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    max-height: 380px;
+    
+}
+.personal{
+    background-color: #4CA7C0;
+    border-radius: 14px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    gap: 10px;
+}
+.proven{
+    background-color: #484FB7;
+    border-radius: 14px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    gap: 10px;
+}
+.supportive{
+    background-color: #E9BB57;
+    border-radius: 14px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+.flexible{
+    background-color: #ffffff;
+    border-radius: 14px;
+    height: 90px;
+    width: 180px;
+}
+
+
+.pricing{
+    background-color: #484FB7;
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+}   
+
+.pricing table{
+    width: 60%;
+    align-content: center;
+    margin: 0 auto;
+    border: #E9BB57 2px solid;
+    background-color: transparent;
+    border-collapse: collapse;
+    
+}
+.pricing table th, table td{
+    border: #E9BB57 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+table th{
+    background-color: #E9BB57;
+    color: #1E1E1E;
+    font-weight: bold;
+}
+table td{
+    background-color: #ffffff;
+    color: #1E1E1E;
+}
+table tr:hover{
+    background-color: #E9BB57;
+}
+.firststep{
+    background-color: #D9526F;
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #ffffff;
+}
+.but{
+    display: flex;
+    width: 360px;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 16px;
+    color: #1E1E1E;
+    box-shadow: 2px 6px 2px #1E1E1E;
+}
+footer{
+    background-color: #484FB7;
+    max-width: 475px;
+    width: 100%;
+    min-height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    
 }
